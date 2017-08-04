@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yiran.mmclient.MainActivity">
+    <TextView
+        android:id="@+id/tv_usr_password"
+        android:layout_width="65dp"
+        android:layout_height="27dp"
+        android:text="密码:"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/edit_usr_name"
+        android:layout_alignLeft="@+id/edit_usr_name"
+        android:layout_alignStart="@+id/edit_usr_name" />
+
+    <EditText
+        android:id="@+id/edit_usr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_login"
+        android:layout_alignLeft="@+id/tv_usr_name"
+        android:layout_alignRight="@+id/btn_login"
+        android:layout_alignStart="@+id/tv_usr_name"
+        android:layout_below="@+id/tv_usr_name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="yiran" />
+
+    <TextView
+        android:id="@+id/tv_usr_name"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:text="用户名:"
+        android:textSize="18sp"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp" />
+
+    <EditText
+        android:id="@+id/edit_usr_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_login"
+        android:layout_alignLeft="@+id/tv_usr_password"
+        android:layout_alignRight="@+id/btn_login"
+        android:layout_alignStart="@+id/tv_usr_password"
+        android:layout_below="@+id/tv_usr_password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="snivwkbsk123" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
